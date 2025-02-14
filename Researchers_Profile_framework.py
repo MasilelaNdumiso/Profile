@@ -18,12 +18,13 @@ tab1, tab2, tab3= st.tabs(["About", "Publications", "Current projects"])
 #%%
 #make the pages
 with tab1:
-    st.heading("About Ndumiso Siphosezwe Masilela")
+    st.header("About Ndumiso Siphosezwe Masilela")
+    st.write("....")
 
 with tab2: 
-    st.heading("Application of the Standardised Streamflow Index for Hydrological Drought Monitoring in the Western Cape Province, South Africa: A Case Study in the Berg River Catchment")
+    st.header("Application of the Standardised Streamflow Index for Hydrological Drought Monitoring in the Western Cape Province, South Africa: A Case Study in the Berg River Catchment")
     st.image("Screenshot (269)")
     st.write("The paper...")
-    st.heading("Hydrological drought assessment using the standardized groundwater index and the standardized precipitation index in the Berg River Catchment, South Africa")
+    st.header("Hydrological drought assessment using the standardized groundwater index and the standardized precipitation index in the Berg River Catchment, South Africa")
     st.image("Screenshot (272)")
     st.write("The paper...")
